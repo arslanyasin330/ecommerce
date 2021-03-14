@@ -1,11 +1,13 @@
 from django import forms
+from django.core.validators import RegexValidator
 
 from account.models import User
 
 
 class LoginForm(forms.Form):
-    username = forms.EmailField()
+    email = forms.EmailField()
     password = forms.CharField(widget=forms.PasswordInput)
+    phone_number = forms.CharField(max_length=17)
 
 
 class UserRegistrationForm(forms.ModelForm):
@@ -16,7 +18,7 @@ class UserRegistrationForm(forms.ModelForm):
 
     class Meta:
         model = User
-        fields = ('email', 'first_name', 'last_name', 'avatar')
+        fields = ('email', 'first_name', 'last_name', 'phone_number', 'avatar')
 
     def clean_password2(self):
         cd = self.cleaned_data

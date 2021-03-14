@@ -15,7 +15,8 @@ def user_login(request):
             cd = form.cleaned_data
             # authenticate  check user exist or not
             user = authenticate(request,
-                                username=cd['username'],
+                                username=cd['email'],
+                                phone_number=cd['phone_number'],
                                 password=cd['password'])
 
             if user:
