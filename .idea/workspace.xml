@@ -1,16 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2944be90-ccb3-4ec6-8edc-3aedd6f76317" name="Default Changelist" comment="">
+    <list default="true" id="841e56f8-a0d3-42cd-8a2e-448bf4fe8758" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/static/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/edit_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/dashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="JupyterTrust" id="8f8a2f8d-bbfa-44e2-bb4c-e9eac143e56a" />
   <component name="ProjectId" id="1pW2OfSc335ROvSUz3bU9qEcgFd" />
@@ -21,6 +77,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -57,7 +114,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2944be90-ccb3-4ec6-8edc-3aedd6f76317" name="Default Changelist" comment="" />
+      <changelist id="841e56f8-a0d3-42cd-8a2e-448bf4fe8758" name="Default Changelist" comment="" />
       <created>1615284494106</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -71,6 +128,7 @@
       <workItem from="1615343162295" duration="4650000" />
       <workItem from="1615350053717" duration="6132000" />
       <workItem from="1615446822728" duration="753000" />
+      <workItem from="1615645069775" duration="867000" />
     </task>
     <servers />
   </component>
@@ -78,6 +136,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="353" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615619965647">
+      <screen x="0" y="25" width="1440" height="783" />
+    </state>
+    <state x="353" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.783@0.25.1440.783" timestamp="1615619965647" />
     <state x="486" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615349451337">
       <screen x="0" y="25" width="1440" height="783" />
     </state>
@@ -91,10 +153,10 @@
       <screen x="0" y="25" width="1440" height="783" />
     </state>
     <state x="416" y="162" width="674" height="486" key="find.popup/0.25.1440.783@0.25.1440.783" timestamp="1615446941908" />
-    <state x="418" y="135" key="search.everywhere.popup" timestamp="1615356472196">
+    <state x="418" y="135" key="search.everywhere.popup" timestamp="1615644390053">
       <screen x="0" y="25" width="1440" height="783" />
     </state>
-    <state x="418" y="135" key="search.everywhere.popup/0.25.1440.783@0.25.1440.783" timestamp="1615356472196" />
+    <state x="418" y="135" key="search.everywhere.popup/0.25.1440.783@0.25.1440.783" timestamp="1615644390053" />
     <state x="418" y="135" key="search.everywhere.popup/0.25.1440.786@0.25.1440.786" timestamp="1615295516319" />
   </component>
 </project>

@@ -1,9 +1,10 @@
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import auth
 from django.shortcuts import render, redirect
 
-from account.forms import LoginForm
+from account.forms import LoginForm, UserEditForm
 from .forms import UserRegistrationForm
 
 
@@ -63,4 +64,27 @@ def register(request):
         user_form = UserRegistrationForm()
         return render(request,
                       'account/register.html',
+                      {'user_form': user_form})
+
+
+@login_required
+def edit_profile(request):
+    if request.method == 'POST':
+        user_edit_form = UserEditForm(instance=request.user,
+                                      data=request.POST)
+        if user_edit_form.is_valid():
+
+            user_edit_form.save()
+
+            messages.success(request, 'profile edited successfully')
+            return redirect('/')
+        else:
+            return render(request,
+                          'account/edit_profile.html',
+                          {'user_form': user_edit_form})
+
+    else:
+        user_form = UserEditForm(instance=request.user)
+        return render(request,
+                      'account/edit_profile.html',
                       {'user_form': user_form})

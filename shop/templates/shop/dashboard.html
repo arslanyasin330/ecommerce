@@ -5,5 +5,13 @@
 {% block content %}
     <h1>Dashboard</h1>
     <p>Welcome to your dashboard</p>
-
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li class="{{ message.tags }}">
+                    {{ message|safe }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
 {% endblock %}
