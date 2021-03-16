@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="841e56f8-a0d3-42cd-8a2e-448bf4fe8758" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +119,10 @@
       <workItem from="1615350053717" duration="6132000" />
       <workItem from="1615446822728" duration="753000" />
       <workItem from="1615645069775" duration="3436000" />
-      <workItem from="1615802440276" duration="291000" />
+      <workItem from="1615802440276" duration="672000" />
+      <workItem from="1615820966793" duration="3000" />
+      <workItem from="1615822545170" duration="96000" />
+      <workItem from="1615861937642" duration="226000" />
     </task>
     <servers />
   </component>
@@ -136,10 +139,10 @@
     </state>
     <state x="486" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.783@0.25.1440.783" timestamp="1615802543517" />
     <state x="486" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.786@0.25.1440.786" timestamp="1615295220171" />
-    <state x="430" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1615343165770">
+    <state x="430" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1615861938199">
       <screen x="0" y="25" width="1440" height="783" />
     </state>
-    <state x="430" y="234" key="com.intellij.ide.util.TipDialog/0.25.1440.783@0.25.1440.783" timestamp="1615343165770" />
+    <state x="430" y="234" key="com.intellij.ide.util.TipDialog/0.25.1440.783@0.25.1440.783" timestamp="1615861938199" />
     <state x="416" y="162" width="674" height="486" key="find.popup" timestamp="1615446941908">
       <screen x="0" y="25" width="1440" height="783" />
     </state>
