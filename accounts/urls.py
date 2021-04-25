@@ -9,15 +9,5 @@ router.register('users', UserProfileViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    # path('auth/', obtain_auth_token),
     path('login/', views.UserLoginApiView.as_view()),
 ]
-
-#
-# urlpatterns = [
-#     path('login/', views.user_login, name='login'),
-#     path('logout/', views.user_logout, name='logout'),
-#     path('register/', views.register, name='register'),
-#     path('edit_profile/', views.edit_profile, name='edit_profile'),
-#
-# ]
